@@ -70,10 +70,23 @@
     `ALTER TABLE users`
     `DROP COLUMN status`
 
-- Comando DDL - 04:27
-- Manipulando Dados - 15:29
+- Comando DDL - 04:27 - Nessa aula aprenderemos os conceitos dos comandos DDL (Data Definition Language) - `INSERT`, `SELECT`, `UPDATE` e `DELETE`.
+  <img src="./img/node9.jpg">
+
+- Manipulando Dados - 15:29 - Nessa aula aprenderemos como inserir, buscar, atualizar e deletar os registros na tabela `users`.
 
   - O DML ou Data Manipulation Language (Linguagem de Manipulação de Dados) interage diretamente com os dados dentro das tabelas. Possui três comandos para esta manipulação: `INSERT`, `UPDATE` e `DELETE`.
+  - DQL ou Data Query Language possui apenas um único comando: O `SELECT`.
+
+  - Inserindo dados na tabela users:
+    `INSERT INTO (users name, email, password) VALUES ('birobirobiro', 'birobirobiro@email.com', '123');`
+  - Buscando registros na tabela users:
+    `SELECT * FROM users;`
+  - Atualizando registros:
+    `UPDATE users SET avatar = 'birobirobiro.png' WHERE id = 1`
+  - Deletando registros:
+    `DELETE FROM users WHERE id = 3`
+    <img src="./img/node10.jpg">
 
 - Migrations - 07:08
 - Select - 07:02
