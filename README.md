@@ -18,8 +18,12 @@
   <img src="./img/node4.jpg">
   <img src="./img/node5.jpg">
 
-- Estrutura do Banco de Dados - 06:02
-- Conectando com o banco de dados - 07:40
+- Estrutura do Banco de Dados - 06:02: Nessa aula apresentaremos como será a estrutura do banco de dados do projeto que iremos desenvolver.
+  <img src="./img/node6.jpg">
+
+- Conectando com o banco de dados - 07:40: Nessa aula faremos a configuração inicial para que nosso projeto consiga se comunicar com o banco de dados SQLite.
+  - npm install sqlite3 sqlite --save (dependência de produção)
+  - Criar pasta database/sqlite/index.js
 - SGBD - 02:23
 - Criando tabela de usuário - 08:49
 - SQL - 03:04
