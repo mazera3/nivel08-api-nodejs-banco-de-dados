@@ -88,7 +88,8 @@
     `DELETE FROM users WHERE id = 3`
     <img src="./img/node10.jpg">
 
-- Migrations - 07:08
+- Migrations - 07:08 - Nessa aula aprenderemos como automatizar a criação do banco de dados utilizando as Migrations.
+  - Criar sqlite/migrations/createUsers.js; index.js
 - Select - 07:02
 - Cadastrando usuário - 04:33
 - Criptografando senha do usuário - 05:18
