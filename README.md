@@ -27,8 +27,26 @@
   - Criar pasta database/sqlite/index.js
 
 - SGBD (Sistema Gerenciador de Banco de DAdos) - 02:23: Nessa aula instalaremos a ferramenta Beekeper Studio para que consigamos visualizar e executar funções em nosso banco da dados.
+
   - [Open Source SQL Editor and Database Manager](https://www.beekeeperstudio.io/)
-- Criando tabela de usuário - 08:49
+    <img src="./img/node8.jpg">
+
+- Criando tabela de usuário - 08:49 - Nessa aula com a utilização do Beekeper Studio, criaremos a nossa primeira tabela no banco de dados.
+
+  - Comando para criar a tabela `users`:
+      <pre>
+      CREATE TABLE users (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name VARCHAR,
+      email VARCHAR,
+      password VARCHAR,
+      avatar VARCHAR NULL,
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )
+    </pre>
+    <img src="./img/node7.jpg">
+
 - SQL - 03:04
 - Alter - 05:23
 - Comando DDL - 04:27
