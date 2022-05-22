@@ -47,10 +47,15 @@
     </pre>
     <img src="./img/node7.jpg">
 
-- SQL - 03:04
+- SQL - 03:04 - Nessa aula aprenderemos o significado de SQL (Structured Query Language), ou Linguagem de Consulta Estruturada. É a linguagem padrão para banco de dados relacionais. Também aprenderemos sobre comandos DML (Data Manipulation Language)
+
+  - Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de pesquisa declarativa padrão para banco de dados relacional.
+  - DDL ou Data Definition Language (Linguagem de Definição de dados) - permite ao usuário definir as novas tabelas e os elementos que serão associados a elas. É responsável pelos comandos de criação e alteração no banco de dados, sendo composto por três comandos: `CREATE`, `ALTER` e `DROP`.
+
 - Alter - 05:23
 - Comando DDL - 04:27
 - Manipulando Dados - 15:29
+  - O DML ou Data Manipulation Language (Linguagem de Manipulação de Dados) interage diretamente com os dados dentro das tabelas. Possui três comandos para esta manipulação: `INSERT`, `UPDATE` e `DELETE`.
 - Migrations - 07:08
 - Select - 07:02
 - Cadastrando usuário - 04:33
