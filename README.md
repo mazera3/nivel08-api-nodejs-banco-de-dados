@@ -52,10 +52,29 @@
   - Structured Query Language, ou Linguagem de Consulta Estruturada ou SQL, é a linguagem de pesquisa declarativa padrão para banco de dados relacional.
   - DDL ou Data Definition Language (Linguagem de Definição de dados) - permite ao usuário definir as novas tabelas e os elementos que serão associados a elas. É responsável pelos comandos de criação e alteração no banco de dados, sendo composto por três comandos: `CREATE`, `ALTER` e `DROP`.
 
-- Alter - 05:23
+- Alter - 05:23: Nessa aula aprenderemos a alterar o nome das tabelas, adicionar e deletar colunas do banco de dados.
+
+  - Alterar nome da tabela:
+    `ALTER TABLE users`
+    `RENAME TO clients`
+
+  - Adicionando coluna status:
+    `ALTER TABLE users`
+    `ADD status VARCHAR`
+
+  - Renomeando coluna status :
+    `ALTER TABLE users`
+    `RENAME COLUMN status TO active`
+
+  - Deletando coluna status:
+    `ALTER TABLE users`
+    `DROP COLUMN status`
+
 - Comando DDL - 04:27
 - Manipulando Dados - 15:29
+
   - O DML ou Data Manipulation Language (Linguagem de Manipulação de Dados) interage diretamente com os dados dentro das tabelas. Possui três comandos para esta manipulação: `INSERT`, `UPDATE` e `DELETE`.
+
 - Migrations - 07:08
 - Select - 07:02
 - Cadastrando usuário - 04:33
