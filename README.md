@@ -22,9 +22,12 @@
   <img src="./img/node6.jpg">
 
 - Conectando com o banco de dados - 07:40: Nessa aula faremos a configuração inicial para que nosso projeto consiga se comunicar com o banco de dados SQLite.
+
   - npm install sqlite3 sqlite --save (dependência de produção)
   - Criar pasta database/sqlite/index.js
-- SGBD - 02:23
+
+- SGBD (Sistema Gerenciador de Banco de DAdos) - 02:23: Nessa aula instalaremos a ferramenta Beekeper Studio para que consigamos visualizar e executar funções em nosso banco da dados.
+  - [Open Source SQL Editor and Database Manager](https://www.beekeeperstudio.io/)
 - Criando tabela de usuário - 08:49
 - SQL - 03:04
 - Alter - 05:23
