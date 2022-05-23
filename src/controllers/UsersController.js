@@ -41,8 +41,8 @@ class UsersController {
       throw new AppError("this email is already in use");
     }
 
-    user.name = name;
-    user.email = email;
+    user.name = name ?? user.name;
+    user.email = email ?? user.email;
 
     if (password && !old_password) {
       throw new AppError("A senha antiga não foi informada!");
