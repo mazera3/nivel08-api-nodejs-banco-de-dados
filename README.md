@@ -94,9 +94,10 @@
 
 - Select - 07:02 - Nessa aula faremos a consulta SQL em nosso Controller para saber se um e-mail já existe no banco de dados.
 
-- Cadastrando usuário - 04:33 - Nessa aula aprenderemos como cadastrar usuários em nosso banco de dados através do nosso Control
+- Cadastrando usuário - 04:33 - Nessa aula aprenderemos como cadastrar usuários em nosso banco de dados através do nosso Control.
 
-- Criptografando senha do usuário - 05:18
+- Criptografando senha do usuário - 05:18 - Nessa aula aprenderemos como criptografar as senhas do usuários utilizando a lib bcryptjs .
+  - Instalar bcryptjs: `npm install bcryptjs --save`
 - Atualizando usuário - 10:57
 - Atualizando senha - 05:14
 - Datetime do Banco - 03:29
