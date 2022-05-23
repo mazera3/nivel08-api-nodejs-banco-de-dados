@@ -97,8 +97,11 @@
 - Cadastrando usuário - 04:33 - Nessa aula aprenderemos como cadastrar usuários em nosso banco de dados através do nosso Control.
 
 - Criptografando senha do usuário - 05:18 - Nessa aula aprenderemos como criptografar as senhas do usuários utilizando a lib bcryptjs .
+
   - Instalar bcryptjs: `npm install bcryptjs --save`
-- Atualizando usuário - 10:57
+
+- Atualizando usuário - 10:57 - Nessa aula faremos a lógica em nosso back-end para que os dados dos usuários sejam atualizados.
+
 - Atualizando senha - 05:14
 - Datetime do Banco - 03:29
 - Validando nome e e-mail - 02:55
