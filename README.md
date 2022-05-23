@@ -103,6 +103,9 @@
 - Atualizando usuário - 10:57 - Nessa aula faremos a lógica em nosso back-end para que os dados dos usuários sejam atualizados.
 
 - Atualizando senha - 05:14: Nessa aula aprenderemos qual estratégia utilizar para atualizar a senha do usuário.
+
   - Utilizar o bcryptjs compare
-- Datetime do Banco - 03:29
-- Validando nome e e-mail - 02:55
+
+- Datetime do Banco - 03:29 - Nessa aula aprenderemos como atualizar o formato da data do banco de dados utilizando a função `DATETIME('now’)` do SQL.
+
+- Validando nome e e-mail - 02:55 - Nessa aula faremos a validação de nome e e-mail ao atualizar um registro no banco de dados utilizando o <b>Nullish coalescing operator</b> `(??)`.
