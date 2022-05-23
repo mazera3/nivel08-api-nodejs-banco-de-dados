@@ -90,7 +90,7 @@
 
 - Migrations - 07:08 - Nessa aula aprenderemos como automatizar a criação do banco de dados utilizando as Migrations.
   - Criar sqlite/migrations/createUsers.js; index.js
-- Select - 07:02
+- Select - 07:02 - Nessa aula faremos a consulta SQL em nosso Controller para saber se um e-mail já existe no banco de dados.
 - Cadastrando usuário - 04:33
 - Criptografando senha do usuário - 05:18
 - Atualizando usuário - 10:57
