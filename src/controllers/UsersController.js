@@ -15,6 +15,12 @@ class UsersController {
     if (checkUserExits) {
       throw new AppError("email already exists");
     }
+
+    await database.run(
+      "INSERT INTO users (name, email, password) VALUES (?,?,?)",
+      [name, email, password]
+    );
+
     return response.status("201").json("created user!");
   }
 }

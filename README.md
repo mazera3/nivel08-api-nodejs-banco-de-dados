@@ -79,7 +79,7 @@
   - DQL ou Data Query Language possui apenas um único comando: O `SELECT`.
 
   - Inserindo dados na tabela users:
-    `INSERT INTO (users name, email, password) VALUES ('birobirobiro', 'birobirobiro@email.com', '123');`
+    `INSERT INTO users (name, email, password) VALUES ('birobirobiro', 'birobirobiro@email.com', '123');`
   - Buscando registros na tabela users:
     `SELECT * FROM users;`
   - Atualizando registros:
@@ -89,9 +89,13 @@
     <img src="./img/node10.jpg">
 
 - Migrations - 07:08 - Nessa aula aprenderemos como automatizar a criação do banco de dados utilizando as Migrations.
+
   - Criar sqlite/migrations/createUsers.js; index.js
+
 - Select - 07:02 - Nessa aula faremos a consulta SQL em nosso Controller para saber se um e-mail já existe no banco de dados.
-- Cadastrando usuário - 04:33
+
+- Cadastrando usuário - 04:33 - Nessa aula aprenderemos como cadastrar usuários em nosso banco de dados através do nosso Control
+
 - Criptografando senha do usuário - 05:18
 - Atualizando usuário - 10:57
 - Atualizando senha - 05:14
